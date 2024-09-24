@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" size="20" value="Insertar nombre" /><br>
+
+        <label for="fecha">Fecha de Nacimiento</label>
+        <input type="date" id="fecha" name="fecha" size="20" value="Insertar fecha de Nacimiento" /><br>
+
+        <label for="genero">Género</label><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="hombre" name="sexo" value="masculino" checked="true" /><br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="mujer" name="sexo" value="femenino" checked="true" /><br>
+
+        <label for="correo">Correo Electronico</label>
+        <input type="text" id="correo" name="correo" size="20" value="Insertar correo electronico" /><br>
+
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" name="ciudad" size="20" value="Insertar ciudad" /><br><br>
+
+
+        <label for="transporte">¿Qué medio de transporte usas con más frecuencia?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Coche o motocicleta</option>
+                <option>Transporte público</option>
+                <option>Bicicleta o a pie</option>
+            </optgroup>
+        </select><br>
+        <label for="otroTransporte">Otro</label>
+        <input type="text" id="otroTransporte" name="otroTransporte" size="20" value="Otro" /><br><br>
+
+        <label for="ducha">¿Cuánto tiempo dedicas a ducharte diariamente?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Menos de 5 minutos</option>
+                <option>Entre 5 y 10 minutos</option>
+                <option>Más de 10 minutos</option>
+            </optgroup>
+        </select><br>
+        <label for="otroDucha">Otro</label>
+        <input type="text" id="otroDucha" name="otroDucha" size="20" value="Otro" /><br><br>
+
+        <label for="aire">¿Con qué frecuencia utilizas aire acondicionado o calefacción en tu hogar?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Todos los días</option>
+                <option>Algunas veces a la semana</option>
+                <option>Raramente o nunca</option>
+            </optgroup>
+        </select><br>
+        <label for="otroAire">Otro</label>
+        <input type="text" id="otroAire" name="otroAire" size="20" value="Otro" /><br><br>
+
+        <label for="electrodomesticos">¿Cuántas veces a la semana utilizas electrodomésticos como la lavadora o el
+            lavavajillas?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Más de 5 veces a la semana</option>
+                <option>Entre 2 y 5 veces a la semana</option>
+                <option>Menos de 2 veces a la semana</option>
+            </optgroup>
+        </select><br>
+        <label for="otroElectrodomesticos">Otro</label>
+        <input type="text" id="otroElectrodomesticos" name="otroElectrodomesticos" size="20" value="Otro" /><br><br>
+
+        <label for="reciclaje">¿Con qué frecuencia reciclas productos como papel, vidrio o plástico?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Siempre</option>
+                <option>Algunas veces</option>
+                <option>Nunca</option>
+            </optgroup>
+        </select><br>
+        <label for="otroReciclaje">Otro</label>
+        <input type="text" id="otroReciclaje" name="otroReciclaje" size="20" value="Otro" /><br><br>
+
+        <label for="energia">¿Qué tipo de energía utiliza tu hogar principalmente?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Energía renovable (solar, eólica)</option>
+                <option>Energía no renovable (gas, carbón)</option>
+                <option>Mixta (renovable y no renovable)</option>
+            </optgroup>
+        </select><br>
+        <label for="otroEnergia">Otro</label>
+        <input type="text" id="otroEnergia" name="otroEnergia" size="20" value="Otro" /><br><br>
+
+        <label for="residuos">¿Cómo sueles deshacerte de residuos orgánicos (restos de comida, hojas, etc.)?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Composta</option>
+                <option>Basura general</option>
+                <option>Lo dejo en el exterior sin tratamiento especial</option>
+            </optgroup>
+        </select><br>
+        <label for="otroResiduos">Otro</label>
+        <input type="text" id="otroResiduos" name="otroResiduos" size="20" value="Otro" /><br><br>
+
+        <label for="plastico">¿Con qué frecuencia compras productos de plástico de un solo uso (botellas, bolsas,
+            etc.)?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Regularmente</option>
+                <option>Solo cuando es necesario</option>
+                <option>Casi nunca o nunca</option>
+            </optgroup>
+        </select><br>
+        <label for="otroPlastico">Otro</label>
+        <input type="text" id="otroPlastico" name="otroPlastico" size="20" value="Otro" /><br><br>
+
+        <label for="comida">¿Cuántas veces a la semana comes productos de origen animal (carne, lácteos)?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Todos los días</option>
+                <option>Entre 2 y 5 veces a la semana</option>
+                <option>Menos de 2 veces a la semana o soy vegetariano/vegano</option>
+            </optgroup>
+        </select><br>
+        <label for="otroComida">Otro</label>
+        <input type="text" id="otroComida" name="otroComida" size="20" value="Otro" /><br><br>
+
+        <label for="agua">¿Cómo manejas el consumo de agua en tu hogar?</label><br>
+        <select>
+            <optgroup label="Selecciona una opción">
+                <option>Uso moderado, intento ahorrar agua</option>
+                <option>Uso normal, no presto mucha atención</option>
+                <option>Desperdicio agua sin restricciones</option>
+            </optgroup>
+        </select><br>
+        <label for="otroAgua">Otro</label>
+        <input type="text" id="otroAgua" name="otroAgua" size="20" value="Otro" /><br><br>
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+
+    </form>
+</body>
+
+</html>
